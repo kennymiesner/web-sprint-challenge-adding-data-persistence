@@ -1,7 +1,7 @@
-// const db = require('../../data/dbConfig')
+const db = require('../../data/dbConfig')
 
 function getProjects() {
-  return Promise.resolve(`GET all projects`)
+  return db('projects')
 }
 
 function addProject() {
