@@ -24,8 +24,8 @@ In this project you will be given a set of requirements and must design a databa
 - [x] `package.json`
 - [x] `index.js`
 - [x] `api/server.js`
-- [ ] `model.js` inside `api/project`, `api/resource` and `api/task`
-- [ ] `router.js` inside `api/project`, `api/resource` and `api/task`
+- [x] `model.js` inside `api/project`, `api/resource` and `api/task`
+- [x] `router.js` inside `api/project`, `api/resource` and `api/task`
 - [ ] migration file(s)
 - [ ] seed file(s) **optional**
 
@@ -41,12 +41,12 @@ In this project you will be given a set of requirements and must design a databa
 
 Build the migration(s) in Knex inside the `data/migrations` folder using appropriate data types and constraints. **You must use the table names and the column names described below.** To give a primary key a name different than `id`, do `table.increments("project_id")` instead of `table.increments()`.
 
-- [ ] A **project** is what needs to be done and is stored in a `projects` table with the following columns:
+- [x] A **project** is what needs to be done and is stored in a `projects` table with the following columns:
 
-  - [ ] `project_id` - primary key
-  - [ ] `project_name` - required
-  - [ ] `project_description` - optional
-  - [ ] `project_completed` - the database defaults it to `false` (integer 0) if not provided
+  - [x] `project_id` - primary key
+  - [x] `project_name` - required
+  - [x] `project_description` - optional
+  - [x] `project_completed` - the database defaults it to `false` (integer 0) if not provided
 
 - [ ] A **resource** is anything needed to complete a project and is stored in a `resources` table with the following columns:
 
@@ -100,10 +100,10 @@ Build an API inside the `api` folder with endpoints for:
 
 ## Submission format
 
-- [ ] Submit via Codegrade by pushing commits to your `main` branch on Github.
-- [ ] Check Codegrade before the deadline to compare its results against your local tests.
-- [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
-- [ ] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
+- [x] Submit via Codegrade by pushing commits to your `main` branch on Github.
+- [x] Check Codegrade before the deadline to compare its results against your local tests.
+- [x] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
+- [x] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
 
 ## Interview Questions
 
